@@ -1,0 +1,222 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background: #f5f7fa;
+  padding: 20px;
+  font-family: Montserrat;
+}
+.wrapper {
+  background: #ffffff;
+  display: flex;
+
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.sidebar {
+  background: #87cefa;
+  width: 370px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.my-foto {
+  width: 370px;
+}
+
+.softskills {
+  margin-bottom: 24px;
+}
+
+.contacts {
+  margin-top: 60px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.aside-title {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 0.2rem;
+  line-height: 30px;
+  color: black;
+  margin-bottom: 20px;
+}
+.aside-style {
+  text-decoration: none;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.8;
+  color: black;
+  margin-right: 20px;
+}
+
+.aside-itmes {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  color: black;
+  margin-left: 15px;
+}
+.skill-text {
+  color: black;
+  font-size: 18px;
+}
+.profession {
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 34px;
+  font-weight: 700;
+  margin-top: 23px;
+  margin-bottom: 23px;
+}
+.name {
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 2000;
+  font-size: 95px;
+  font-style: normal;
+}
+.content {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+.main-info {
+  background-color: #87cefa;
+
+  margin-bottom: 64px;
+  margin-top: 64px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 80px;
+}
+
+.projects {
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+.projects-name {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+}
+
+.project-link {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+.tech-name {
+  color: #595959;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.section-bio {
+  margin-bottom: 30px;
+}
+
+.response {
+  padding-left: 20px;
+}
+
+.experince {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+.experince h4 {
+  font-weight: 900;
+}
+
+.project-item {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 1.7;
+}
+
+.project-container {
+  margin-bottom: 55px;
+  margin-left: 60px;
+}
+.profession-title {
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.company {
+  color: #ff6b08;
+}
+.period {
+  color: #a8a8a8;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+.divider {
+  color: black;
+}
+.profession-duties {
+  margin-top: 14px;
+  margin-bottom: 30px;
+}
+.duties-description {
+  color: #595959;
+  font-size: 18px;
+  font-weight: 400;
+}
+.speciality {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.add {
+  margin-top: 30px;
+}
+@media screen and (max-width: 768px) {
+  .wrapper {
+    flex-wrap: wrap;
+  }
+  .sidebar {
+    width: 100%;
+  }
+  .sidebar img {
+    width: 100%;
+  }
+  .about-me {
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 12%;
+    padding-bottom: 12%;
+  }
+}
